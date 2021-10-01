@@ -2,4 +2,4 @@
 
 **Discovering Go**
 
-[!Go](https://www.nixsolutions.com/uploads/2020/07/Golang.png)
+![Go](https://www.nixsolutions.com/uploads/2020/07/Golang.png)
