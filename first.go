@@ -73,7 +73,67 @@ func main(){
 
   // modulo operatot %
 
+  ////////////////////////////// Go Package & import
+
+  //package -> to get better design for go language
+  //the main package is neccessary in our go project
+  // import for librarries
+  //import ("fmt" "os")
+  //all librarirs must be in small letters
+
+
+  //Example for if else
+
+  var num1 int = 10
+  var num2 int = 20
+
+  if(num1 == num2){
+    fmt.Pritln("Equal")
+  }else if (num1 > num2){
+    fmt.Println("Grt")
+  }else{
+    fmt.Pritln("lt")
+  }
+
+  //Switch statemnet
+
+  switch num2{
+  case 1:
+    fmt.Println("num1 = 1")
+    break
+  case 2:
+    fmt.Println("num1 = 2")
+    break
+  case 3:
+    fmt.Println("num1 = 2")
+    break
+  default :
+  fmt.Println("No one mutch")
+  break
+  }
+
+
+  //loops
+  //for loop
+
+  for a:=0;a<10;a++{
+    //fmt.Printf("Num is : %d",a)
+    fmt.Println("Num : ",a)
+  }
+
+  var limit = 10
+  for limit < 30{
+    limit+= limit
+    fmt.Println("Num : ",limit)
+  }
+
+  //json_handling
+
+  var my_nums = []int{1,2,3,4,5,6}
+  var num1 = 0
+
   
+
 
 
 
