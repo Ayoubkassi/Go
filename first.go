@@ -132,10 +132,40 @@ func main(){
   var my_nums = []int{1,2,3,4,5,6}
   var num1 = 0
 
-  
+  for a,num := range my_nums{
+    num1 += num
+    //a just for index we can replace it by _ for blank (no index)
+  }
+
+
+  fmt.Println("Values : ",num1)
+
+  var my_data = map[string]string{
+    "name":"Ayoub kassi",
+    "age" : "21",
+    "major" : "Computer Science"
+  }
+
+  for key,value := range my_data{
+    fmt.Println("key : ",key)
+    fmt.Println("Value : ",value)
+  }
 
 
 
+  //goto statemnet
+
+  var num = 18;
+
+  Loop:
+  fmt.Println("Sorry , +18")
+
+
+    if(num1 <= 17){
+      goto Loop
+    }else{
+      fmt.Println("Yes , approved")
+    }
 
 
 
